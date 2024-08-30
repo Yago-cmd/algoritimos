@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    inteiro num1, num2, num3
+    escreva("Digite 3 numeros: ")
+    leia(num1, num2, num3)
+    se(num1 > num2 > num3)
+    escreva("valor 1 e o maior valor")
+    senao se(num2>num1>num3)
+    escreva("valor 2 e o maior valor")
+    senao
+    escreva("valor 3 e o maior valor")
+  }
+}

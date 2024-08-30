@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+
+     inteiro idade
+    caracter nome
+  escreva("escreva seu nome: ")
+  leia(nome)
+  escreva("Escreva sua idade: ")
+  leia(idade)
+  se (idade >= 18)
+  escreva("Pode tirar a CNH")
+  senao 
+  escreva("Nao pode tirar CNH")
+
+  }
+}
